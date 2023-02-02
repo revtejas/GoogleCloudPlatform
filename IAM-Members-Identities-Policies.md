@@ -13,7 +13,7 @@
 - Policy inheritance is transitive, meaning, Org policies are applied at resource level
 - Permission given at higher level overrides the permission given at lower level
 
-## __Predefined Roles:__Organization, Billing and Project Roles
+## Predefined Roles: Organization, Billing and Project Roles
 
 |  Roles | Description  | Use Case  |
 |---|---|---|
@@ -21,3 +21,20 @@
 |  __Billing Account Admin__ |  Manages billing account but can't create them | Finance Team  |
 | __Billing Account User__  | Assigns projects to billing accounts  | Project Owner  |
 | __Billing Account Viewer__  | View only access to billing account  | Auditor  |
+
+### Scenarios
+- I'm creating a project and I want to associate an existing billing account with the project - Project Creator and Billing Account User
+- I'm a billing auditor - Billing Account Viewer
+
+## Predefined Roles: Compute Engine Roles
+
+|  Roles | Description  | Use Case  |
+|---|---|---|
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
