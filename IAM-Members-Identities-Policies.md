@@ -15,7 +15,6 @@
 
 # Predefined Roles
 ## Organization, Billing and Project Roles
-### Organization Administrator
-- Defines Resource hierarchy, defines access management policies, manages other users and roles
+* __Organization Administrator:__ Defines Resource hierarchy, defines access management policies, manages other users and roles
 
 ### Billing Account Creator
