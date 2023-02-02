@@ -16,5 +16,7 @@
 # Predefined Roles
 ## Organization, Billing and Project Roles
 * __Organization Administrator:__ Defines Resource hierarchy, defines access management policies, manages other users and roles
-
-### Billing Account Creator
+* __Billing Account Creator:__ Create Billing Accounts
+* __Billing Account Admin:__ Manage Billing accounts, however cannot create a billing account
+* __Billing Account User:__ Associate projects with Billing Accounts, typically used in combination with __Project creator__
+* __Billing Account Viewer:__ See all Billing Account details
