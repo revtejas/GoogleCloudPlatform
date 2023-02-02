@@ -11,4 +11,6 @@
     - Default alert thresholds set at 50%, 90% and 100%
     - Send alerts to pub sub (optional)
     - Billing admins and Billing account users are alerted by email
-    
+- Billing data can be exported (on a schedule) to:
+    - Big Query (if you want to query information or visualize it)
+    - Cloud Storage (for history/ archiving)
