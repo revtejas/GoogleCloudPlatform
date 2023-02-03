@@ -95,5 +95,15 @@ Note:
 - You CANNOT see data with BigQuery Job User roles
 - BigQuery Data Owner or Data Viewer roles do NOT have access to jobs
 
+## Predefined Roles: Google Logging and Service Account Roles
 
+|  Roles | Description  | Use Case  |
+|---|---|---|
+| __Logs Viewer__ | Read all logs exceot Access Transparency logs and Data access audit logs | roles/logging.viewer |
+| __Private Logs Viewer__ | Logs Viewer + Read Access Transparency logs and Data Access audit logs | roles/logging.privateLogViewer |
+| __Logging Admin__ | All permissions related to Logging | roles/logging.admin |
+| __Service Account Admin__ | Create and manage service accounts | roles/iam.serviceAccountAdmin |
+| __Service Account User__ | Run operations as the service account | iam.serviceAccountUser |
+| __Service Account Token Creator__ | Impersonate service accounts (create OAuth2 access tokens, sign blobs or JWTs, etc) | iam.serviceAccountTokenCreator |
+| __Service Account Key Admin | Create and manage (and rotate) service account keys | roles/iam.serviceAccountKeyAdmin |
 
