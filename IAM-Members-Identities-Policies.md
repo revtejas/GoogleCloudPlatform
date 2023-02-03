@@ -39,6 +39,17 @@
 | __Compute OS Admin Login__  | Log in to a compute engine instance as an admin user  | -  |
 | __Compute OS Login__  | Log in to a compute engine instance as a standard user  | -  |
 
-## Predefined Roles: App Engine Roles (CRUD - Create, Read
+## Predefined Roles: App Engine Roles (CRUD - Create, Read (get/list), Update, Delete)
+
+|  Roles | Description  | Use Case  |
+|---|---|---|
+|  __App Engine Creator__ | applications(CD), Responsible for creating an application | - |
+|  __App Engine Admin__ | applications(RU), services/instances/versions(CRUD),operations | -  |
+| __App Engine Viewer__  | applications/services/instances/versions(R),operations | Project Owner  |
+| __App Engine Code Viewer__  | appengine.versions.getFileContents (ONLY role that can view code) | - |
+| __App Engine Deployer__ | versions(CRD),applications/services/versions(R) - Deploy a new version of an app | - |
+| __App Engine Service Admin | versions(RUD), applications(R), services/instances(CRUD),operations: split or migrate traffic, Start and stop a version | - |
+
+
 
 
