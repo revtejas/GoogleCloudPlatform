@@ -107,3 +107,14 @@ Note:
 | __Service Account Token Creator__ | Impersonate service accounts (create OAuth2 access tokens, sign blobs or JWTs, etc) | iam.serviceAccountTokenCreator |
 | __Service Account Key Admin__ | Create and manage (and rotate) service account keys | roles/iam.serviceAccountKeyAdmin |
 
+## Predefined Roles: Other Important IAM Roles
+
+|  Roles | Description  | Use Case  |
+|---|---|---|
+|  __iam.securityAdmin__ | Permissions to create new billing accounts | - |
+|  __iam.securityReviewer__ |  Manages billing account but can't create them | - |
+| __iam.organizationRoleAdmin__  | Assigns projects to billing accounts  | - |
+| __iam.organizationRoleViewer  | View only access to billing account  | - |
+| __iam.roleAdmin__ | Provides access to all custom roles in the project | - |
+| __iam.roleViewer__ | Provides read access to all custom roles in the project | - |
+| __browser__ | Read access to browse the hierarchy for a project, including the folder, organization. and IAM policy | - |
