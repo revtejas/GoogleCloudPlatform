@@ -55,4 +55,45 @@ App Engine Roles DO NOT allow us to
 - view monitoring charts in the cloud console
 - enable and disable billing
 
+## Predefined Roles: Google Kubernetes Engine Roles
+
+|  Roles | Description  | Use Case  |
+|---|---|---|
+|  __Kubernetes Engine Admin__ | Complete access to clusters and kubernetes API objects | - |
+|  __Kubernetes Engine Cluster Admin__ | Provides access to management of clusters (cannot access kubernetes API objects - Deployments, Pods etc. | - |
+| __Kubernetes Engine Developer__  | Manage kubernetes API objects (and read cluster info) | - |
+| __Kubernetes Engine Viewer__  | Get/list cluster and kubernetes API objects | - |
+
+## Predefined Roles: Google Cloud Storage Roles
+
+|  Roles | Description  | Use Case  |
+|---|---|---|
+|  __Storage Admin__ | storage.buckets.*, storage.objects.* | - |
+|  __Storage Object Admin__ | storage.objects.* | - |
+| __Storage Object Creator__  | storage.objects.create | - |
+| __Storage Object Viewer__  | storage.objects.get, storage.objects.list | - |
+
+Note:
+- Container Registry stores container images in Cloud Storage buckets
+- Control access to images in Container Registry using Cloud Storage permissions
+- Storage Admin can create buckets and play with objects
+- Storage Object Admin CANNOT create buckets but can play with objects in a bucket
+
+## Predefined Roles: Google Cloud BigQuery Roles
+
+|  Roles | Description  | Use Case  |
+|---|---|---|
+| __BigQuery Admin__ | bigquery.* | - |
+| __BigQuery Data Owner__ | bigquery.datasets.* , bigquery.models.* , bigquery.routines.* , bigquerytables.* (Does NOT have access to Jobs) | - |
+| __BigQuery Data Editor__  | bigquery.tables.(create/delete/export/get/getData/getIamPolicy/list/update/updateData/updateTag), bigquery.models.* , bigquery.routines.* , bigquery.datasets.(create/get/getIamPolicy/updateTag | - |
+| __BigQuery Data Viewer__  | get/list bigquery.(datasets/models/routines/tables) | - |
+| __BigQuery Job User__ | bigquery.jobs.create | - |
+| __BigQuery User__ | BigQuery Data Viewer + get/list (jobs, capacityCommitments, reservations etc) | - |
+
+Note:
+- To see data, you need either BigQuery User or BigQuery Data Viewer roles
+- You CANNOT see data with BigQuery Job User roles
+- BigQuery Data Owner or Data Viewer roles do NOT have access to jobs
+
+
 
