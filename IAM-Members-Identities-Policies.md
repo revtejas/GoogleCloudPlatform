@@ -31,10 +31,14 @@
 |  Roles | Description  | Use Case  |
 |---|---|---|
 | __Compute Engine Admin__ | Complete control of compute - Instances, Images, Load Balancers, Networks, Firewalls  | -  |
-| __Compute Instance Admin__  | CRED operations on virtual machine instances and disks  | -  |
+| __Compute Instance Admin__  | CRUD operations on virtual machine instances and disks  | -  |
 | __Compute Engine Network Admin__  | Complete access to networking resources (routes, networks, health checks, VPN, Gateways) and READ ONLY access to security resources (firewall rules and SSL certificates)  | -  |
 | __Compute Engine Security Admin__  | Complete access to firewall rules and SSL certificates  | -  |
-| __Compute Storage Admin  | Complete access to disks, images, snapshots  | -  |
+| __Compute Storage Admin__  | Complete access to disks, images, snapshots  | -  |
 | __Compute Engine Viewer__  | READ ONLY access to everything in compute  | -  |
 | __Compute OS Admin Login__  | Log in to a compute engine instance as an admin user  | -  |
 | __Compute OS Login__  | Log in to a compute engine instance as a standard user  | -  |
+
+## Predefined Roles: App Engine Roles (CRUD - Create, Read
+
+
