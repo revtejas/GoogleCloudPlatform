@@ -30,7 +30,7 @@
 
 |  Roles | Description  | Use Case  |
 |---|---|---|
-|  __Compute Engine Admin__ | Complete control of compute - Instances, Images, Load Balancers, Networks, Firewalls  | -  |
+| __Compute Engine Admin__ | Complete control of compute - Instances, Images, Load Balancers, Networks, Firewalls  | -  |
 | __ Compute Instance Admin__  | CRED operations on virtual machine instances and disks  | -  |
 | __ Compute Engine Network Admin__  | Complete access to networking resources (routes, networks, health checks, VPN, Gateways) and READ ONLY access to security resources (firewall rules and SSL certificates)  | -  |
 | __ Compute Engine Security Admin__  | Complete access to firewall rules and SSL certificates  | -  |
