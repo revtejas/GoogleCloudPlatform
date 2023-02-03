@@ -114,7 +114,7 @@ Note:
 |  __iam.securityAdmin__ | Permissions to create new billing accounts | - |
 |  __iam.securityReviewer__ |  Manages billing account but can't create them | - |
 | __iam.organizationRoleAdmin__  | Assigns projects to billing accounts  | - |
-| __iam.organizationRoleViewer  | View only access to billing account  | - |
+| __iam.organizationRoleViewer__  | View only access to billing account  | - |
 | __iam.roleAdmin__ | Provides access to all custom roles in the project | - |
 | __iam.roleViewer__ | Provides read access to all custom roles in the project | - |
 | __browser__ | Read access to browse the hierarchy for a project, including the folder, organization. and IAM policy | - |
