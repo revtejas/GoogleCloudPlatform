@@ -48,7 +48,7 @@
 | __App Engine Viewer__  | applications/services/instances/versions(R),operations | - |
 | __App Engine Code Viewer__  | appengine.versions.getFileContents (ONLY role that can view code) | - |
 | __App Engine Deployer__ | versions(CRD),applications/services/versions(R) - Deploy a new version of an app | - |
-| __App Engine Service Admin | versions(RUD), applications(R), services/instances(CRUD),operations: split or migrate traffic, Start and stop a version | - |
+| __App Engine Service Admin__ | versions(RUD), applications(R), services/instances(CRUD),operations: split or migrate traffic, Start and stop a version | - |
 
 App Engine Roles DO NOT allow us to
 - view and download application logs
