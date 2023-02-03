@@ -50,6 +50,9 @@
 | __App Engine Deployer__ | versions(CRD),applications/services/versions(R) - Deploy a new version of an app | - |
 | __App Engine Service Admin | versions(RUD), applications(R), services/instances(CRUD),operations: split or migrate traffic, Start and stop a version | - |
 
-
+App Engine Roles DO NOT allow us to
+- view and download application logs
+- view monitoring charts in the cloud console
+- enable and disable billing
 
 
