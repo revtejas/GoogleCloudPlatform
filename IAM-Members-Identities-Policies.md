@@ -105,5 +105,5 @@ Note:
 | __Service Account Admin__ | Create and manage service accounts | roles/iam.serviceAccountAdmin |
 | __Service Account User__ | Run operations as the service account | iam.serviceAccountUser |
 | __Service Account Token Creator__ | Impersonate service accounts (create OAuth2 access tokens, sign blobs or JWTs, etc) | iam.serviceAccountTokenCreator |
-| __Service Account Key Admin | Create and manage (and rotate) service account keys | roles/iam.serviceAccountKeyAdmin |
+| __Service Account Key Admin__ | Create and manage (and rotate) service account keys | roles/iam.serviceAccountKeyAdmin |
 
