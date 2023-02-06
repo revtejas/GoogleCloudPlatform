@@ -34,10 +34,13 @@ analysis.
 - The third use case is backup and archival storage.
 Users can save storage costs by migrating infrequently accessed content to cheaper cloud
 storage options.
+
 Also, if anything happens to their data on-premises, it's critical to have a copy in the cloud
 for recovery purposes.
+
 For users with databases, Google’s first priority is to help them migrate existing
 databases to the cloud and move them to the right service.
 This will usually be users moving MySQL or Postgre workloads to Cloud SQL.
+
 The second priority is to help users innovate, build or rebuild for the cloud, offer mobile
 applications, and plan for future growth.
